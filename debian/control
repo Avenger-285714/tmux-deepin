@@ -1,7 +1,7 @@
 Source: tmux
 Section: admin
 Priority: optional
-Maintainer: Romain Francoise <rfrancoise@debian.org>
+Maintainer: Sebastien Delafond <seb@debian.org>
 Build-Depends: bison,
                debhelper-compat (= 13),
                debianutils (>= 5.3-1~),
@@ -11,11 +11,11 @@ Build-Depends: bison,
                libncurses-dev,
                libsystemd-dev [linux-any],
                pkgconf
-Standards-Version: 4.7.0
+Standards-Version: 4.7.2
 Rules-Requires-Root: no
-Homepage: https://tmux.github.io/
-Vcs-Browser: https://salsa.debian.org/rfrancoise/tmux
-Vcs-Git: https://salsa.debian.org/rfrancoise/tmux.git
+Homepage: https://github.com/tmux/tmux/wiki
+Vcs-Browser: https://salsa.debian.org/debian/tmux
+Vcs-Git: https://salsa.debian.org/debian/tmux.git
 
 Package: tmux
 Architecture: any
